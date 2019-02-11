@@ -13,8 +13,5 @@ AskS=input("What's your favourite subject\n")
 
 AskC=input("What's your most challenging subject\n")
 
-
-ze = listS[int(a)-1]
-
-print("Your favourite subject is", ze)
-print("Your most challenging subject", ze)
+print("Your favourite subject is", listS[int(AskS)-1])
+print("Your most challenging subject", listS[int(AskC)-1]))
